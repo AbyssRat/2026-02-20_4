@@ -11,10 +11,10 @@ namespace RealEstate
     {
         static void Main(string[] args)
         {
-            string fileName = "realestates.csv"; // a CSV fájl neve
+            string fileName = "realestates.csv";
             List<Ad> ads = Ad.LoadFromCsv(fileName);
 
-            // 2. Ellenőrzés: hány hirdetés lett betöltve
+            
             Console.WriteLine($"Betöltött hirdetések száma: {ads.Count}");
 
             // 3. Példa a hozzáférésre: az első hirdetés adatai
